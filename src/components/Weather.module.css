@@ -4,15 +4,30 @@
   margin-top: 10vh;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  border: 3px solid lightgray;
-  border-radius: 1rem;
+  border: 2px solid lightgray;
+  border-radius: 0.2rem;
 }
 .day {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-size: large;
 }
-.day > h1:first-child {
-  color: lightgray;
+.day:first-child {
+  background-color: lightgray;
+}
+.day > h2:first-child {
+  color: gray;
+}
+.minMax {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.minMax > p:nth-child(2) {
+  color: gray;
 }
