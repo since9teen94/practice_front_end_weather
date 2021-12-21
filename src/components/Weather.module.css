@@ -1,0 +1,18 @@
+.forecast {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 10vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border: 3px solid lightgray;
+  border-radius: 1rem;
+}
+.day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.day > h1:first-child {
+  color: lightgray;
+}
